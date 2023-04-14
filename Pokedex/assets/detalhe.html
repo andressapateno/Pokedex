@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe Pokemon</title>
+    
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Montserrat:ital, família= Montserrat:ital,wght@0,800;0,900;1,800;1,900 &família= Roboto:ital,wght@0,100;0,300;0,700;1,500 & display=swap" rel="stylesheet">
+
+    <!--Nosso CSS-->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/detalhe.css">
+
+</head>
+<body>
+    <div class="cabecalho" id="cabecalho">
+        <a href="/assets/index.html" class="voltar">&#8592;</a>
+        <h1 id="nomePokemon">Bulbasaur</h1>
+        <p id="numero">#001</p>
+
+        <div class="detalhe">
+            <div class="types">
+                <nobr class="type">Grass</nobr><nobr class="type">Poison</nobr>
+            </div>
+        </div>
+        <img src="/imagens/bulbasaur.png.png">
+    </div>
+    <div class="informacoes">
+        <p id="texto">About</p>
+        <table id="detalhes">        
+                <tr>
+                    <td id="detalhe">Species</td>
+                    <td id="tipo">Seed</td>
+                </tr>
+                <tr>
+                    <td id="detalhe">Heigth</td>
+                    <td id="tipo">0.7m</td>
+                </tr>
+                <tr>
+                    <td id="detalhe">Weight</td>
+                    <td id="tipo">6.9kg</td>
+                </tr>
+                <tr>
+                    <td id="detalhe">Abilities</td>
+                    <td id="tipo">Overgrow</td>
+                </tr>
+        </table>
+    </div>
+
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/detalhes.js"></script>
+
+</body>
+
+</html>
